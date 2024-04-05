@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header */
+.header-top{
+    background-image: url(./img/header-img.png);
+    background-size: cover;
+    background-position: center;
+    padding: 120px 145px 138px;
+}
+
+.header-top .title{
+    color: #003395;
+    font-size: 54px;
+    font-weight: 500;
+    margin-bottom: 27px;
+}
+
+.header-bottom{
+    background-color: #003395;
+    padding: 27px 145px;
+    /*display: flex;
+    gap: 62px; расстояние между элементами, подходит когда будем делать адаптив. */
+}
+
+.header-bottom .link{
+    margin-right: 62px;
+    color: white;
+    font-size: 18px;
+}
+
+.header-bottom .link:hover{
+    font-weight: 700;
+}
+
+/* main */
+main{
+    padding: 60px 145px;
+}
+
+.news{
+    width: 754px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.news-article{
+    margin-bottom: 24px;
+}
+
+.news-article h2{
+    padding: 15px 0;
+    color: #003395;
+    font-size: 32px;
+    border-top: 2px solid #003395;
+    border-bottom: 2px solid #003395;
+    margin-bottom: 16px;
+}
+
+.news-article p{
+    font-size: 24px;
+}
+
+.news-article p a{
+    text-decoration: underline;
+    color: #003395;
+}
+
+.news-article.last-article{
+    margin-bottom: 0;
+}
+
+/* sidebar */
+.sidebar{
+    width: 362px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.sidebar-card {
+    border: 2px solid #33008D;
+    padding: 19px;
+    margin-bottom: 55px;
+}
+
+.sidebar-card h2{
+    background-color: #24B0FF;
+    color: white;
+    font-size: 27px;
+    padding: 14px 17px;
+    margin-bottom: 14px;
+}
+
+.sidebar-card p{
+    color:  #30233D;
+    font-size: 16px;
+    line-height: 163.35%;
+}
+
+.sidebar-card .sidebar-card-links li{
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.sidebar-card .sidebar-card-links li a{
+    text-decoration: underline;
+    color: #30233D;
+}
+
+/* footer */
+footer{
+    background: linear-gradient(180deg, #003395 0%, #00205F 100%);
+    padding: 45px 145px 83px;
+}
+
+footer p{
+    color: #FCFCFC;
+    text-align: right;
+    font-size: 12px;
+}
